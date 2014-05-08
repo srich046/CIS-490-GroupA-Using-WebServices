@@ -1,0 +1,24 @@
+/*Css for the Sites*/
+
+td.border{border-style: solid; border-width: 1px;}
+tr.border{border-style: solid; border-width: 1px;}
+
+tr.hover {
+   cursor: pointer;
+    
+   /* whatever other hover styles you want */
+}
+
+tr.lovelyrow{
+  background-color: hsl(0,0%,90%);
+   !important
+}
+
+tr.lovelyrow:hover{
+  background-color: hsl(0,0%,40%);
+  cursor: pointer;
+}
+
+table.nogap{
+  border-collapse: collapse;
+}
